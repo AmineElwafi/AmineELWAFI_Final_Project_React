@@ -41,7 +41,7 @@ export default function Header() {
                             </svg>
                         </button>
                         {isOpen && (
-                            <div className="absolute mt-2 w-20 shadow-lg bg-white border-none">
+                            <div className="z-50 absolute mt-2 w-20 shadow-lg bg-white border-none">
                                 <div className="py-1">
                                     <button className="block w-full text-left px-4 py-2 text-sm text-[#8e8583] hover:bg-gray-100">
                                         CAD

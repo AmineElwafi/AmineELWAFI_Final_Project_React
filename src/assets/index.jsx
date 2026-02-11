@@ -2,4 +2,11 @@ import crsl1 from "../assets/images/carousel1.jpg"
 import crsl2 from "../assets/images/carousel2.jpg"
 import crsl3 from "../assets/images/carousel3.webp"
 
-export {crsl1,crsl2,crsl3}
+import card1 from "../assets/images/cards1.webp"
+import card2 from "../assets/images/cards2.webp"
+import card3 from "../assets/images/cards3.webp"
+import card4 from "../assets/images/cards4.webp"
+import card5 from "../assets/images/cards5.webp"
+import card6 from "../assets/images/cards6.webp"
+
+export {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6}
