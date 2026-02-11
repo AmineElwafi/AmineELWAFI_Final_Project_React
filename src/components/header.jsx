@@ -58,7 +58,7 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-between items-center pr-10 pl-10 pt-5'>
+            <div className='flex justify-between items-center pr-10 pl-10 pb-5 pt-5'>
                 <h1 className='text-4xl font-extrabold'>Fashe<span className='text-red-500'>.</span></h1>
                 <div className='flex gap-10'>
                     <a href="" className='hover:text-[#e65540]'>Home</a>
@@ -70,8 +70,8 @@ export default function Header() {
                     <a href="" className='hover:text-[#e65540]'>Contact</a>
                 </div>
                 <div className='flex items-center gap-5 text-[#8e8583]'>
-                    <LuShoppingCart className='text-3xl text-[#8e8583]'/>|
-                    <FaRegUser className='text-3xl text-[#8e8583]'/>
+                    <LuShoppingCart className='text-3xl text-[#8e8583]' />|
+                    <FaRegUser className='text-3xl text-[#8e8583]' />
                 </div>
             </div>
         </>

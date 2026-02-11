@@ -1,1 +1,29 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+/* Custom Animations */
+@theme {
+  --animate-fadeUp: fadeUp 0.8s ease forwards;
+  --animate-fadeScale: fadeScale 0.8s ease forwards;
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}

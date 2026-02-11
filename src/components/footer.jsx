@@ -11,11 +11,11 @@ export default function Footer() {
                         <h3 className='font-bold'>GET IN TOUCH</h3>
                         <p className='text-[#8e8583]'>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879</p>
                         <div className='flex items-center gap-5'>
-                            <FaFacebookF className='text-xl text-[#8e8583]' />
-                            <FaTwitter className='text-xl text-[#8e8583]' />
-                            <FaPinterestSquare className='text-xl text-[#8e8583]' />
-                            <FaGooglePlusG className='text-xl text-[#8e8583]' />
-                            <FaInstagram className='text-xl text-[#8e8583]' />
+                            <FaFacebookF className='text-xl text-[#8e8583]'/>
+                            <FaTwitter className='text-xl text-[#8e8583]'/>
+                            <FaPinterestSquare className='text-xl text-[#8e8583]'/>
+                            <FaGooglePlusG className='text-xl text-[#8e8583]'/>
+                            <FaInstagram className='text-xl text-[#8e8583]'/>
                         </div>
                     </div>
                     <div className='flex flex-col gap-5'>
