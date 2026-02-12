@@ -1,0 +1,104 @@
+import images from "../assets";
+
+const products = [
+    {
+        id: 1,
+        name: "Boxy T-Shirt with Roll Sleeve Detail",
+        price: 28.12,
+        variants: ["m", "l", "xl", "xxl"],
+        Brand: "MyVendor",
+        Categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage2,
+        productImages: [images.pimage3, images.pimage4, images.pimage5, images.pimage6, images.pimage7, images.pimage8],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-t-shirt-with-roll-sleeve-detail"
+    },
+    {
+        id: 2,
+        name: "Boxy1 T-Shirt with Roll Sleeve Detail",
+        price: 33.12,
+        variants: ["m", "l", "xl", "xxl"],
+        brand: "MyVendor",
+        categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage3,
+        productImages: [images.pimage2, images.pimage4, images.pimage5, images.pimage6, images.pimage7, images.pimage8],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-1-t-shirt-with-roll-sleeve-detail"
+    },
+    {
+        id: 3,
+        name: "Boxy2 T-Shirt with Roll Sleeve Detail",
+        price: 25.85,
+        variants: ["m", "l", "xl", "xxl"],
+        Brand: "MyVendor",
+        Categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage4,
+        productImages: [images.pimage2, images.pimage3, images.pimage5, images.pimage6, images.pimage7, images.pimage8],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-2-t-shirt-with-roll-sleeve-detail"
+    },
+    {
+        id: 4,
+        name: "Boxy3 T-Shirt with Roll Sleeve Detail",
+        price: 22.87,
+        variants: ["m", "l", "xl", "xxl"],
+        Brand: "MyVendor",
+        Categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage5,
+        productImages: [images.pimage2, images.pimage3, images.pimage4, images.pimage6, images.pimage7, images.pimage8],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-3-t-shirt-with-roll-sleeve-detail"
+    },
+    {
+        id: 5,
+        name: "Boxy4 T-Shirt with Roll Sleeve Detail",
+        price: 35.12,
+        variants: ["m", "l", "xl", "xxl"],
+        Brand: "MyVendor",
+        Categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage6,
+        productImages: [images.pimage2, images.pimage3, images.pimage4, images.pimage5, images.pimage7, images.pimage8],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-4-t-shirt-with-roll-sleeve-detail"
+    },
+    {
+        id: 6,
+        name: "Boxy5 T-Shirt with Roll Sleeve Detail",
+        price: 31.12,
+        variants: ["m", "l", "xl", "xxl"],
+        Brand: "MyVendor",
+        Categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage7,
+        productImages: [images.pimage2, images.pimage3, images.pimage4, images.pimage5, images.pimage6, images.pimage8],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-5-t-shirt-with-roll-sleeve-detail"
+    },
+    {
+        id: 7,
+        name: "Boxy6 T-Shirt with Roll Sleeve Detail",
+        price: 30.12,
+        variants: ["m", "l", "xl", "xxl"],
+        Brand: "MyVendor",
+        Categories: ["boxy", "Shirts", "sleeveless"],
+        mainImage: images.pimage8,
+        productImages: [images.pimage2, images.pimage3, images.pimage4, images.pimage5, images.pimage6, images.pimage7],
+        description: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placeratFusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat",
+        miniDescription: "Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu....",
+        additionalInfos: "You can use this tab for adding shipping details, return policies and information or measurements etc.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi",
+        slug: "boxy-6-t-shirt-with-roll-sleeve-detail"
+    },
+]
+
+export default products;

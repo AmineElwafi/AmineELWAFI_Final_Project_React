@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
-import { crsl1, crsl2, crsl3 } from "../../../assets";
+import images from "../../../assets";
 
 const slides = [
     {
-        image: crsl1,
+        image: images.crsl1,
         title: "New Collection 2026",
         subtitle: "Discover the latest trends in fashion",
     },
     {
-        image: crsl2,
+        image: images.crsl2,
         title: "Summer Sale",
         subtitle: "Up to 50% off on selected items",
     },
     {
-        image: crsl3,
+        image: images.crsl3,
         title: "Premium Quality",
         subtitle: "Designed for comfort and style",
     },

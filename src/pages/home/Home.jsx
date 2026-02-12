@@ -3,6 +3,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import Hero from './partials/slide'
 import Categories from './partials/categories'
+import FeaturedProducts from './partials/featuredProducts'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Header/>
         <Hero/>
         <Categories/>
+        <FeaturedProducts/>
         <Footer/>
     </div>
   )

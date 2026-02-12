@@ -9,4 +9,14 @@ import card4 from "../assets/images/cards4.webp"
 import card5 from "../assets/images/cards5.webp"
 import card6 from "../assets/images/cards6.webp"
 
-export {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6}
+import pimage2 from "../assets/images/shopi2.webp"
+import pimage3 from "../assets/images/shopy3.webp"
+import pimage4 from "../assets/images/shopy4.webp"
+import pimage5 from "../assets/images/shopy5.webp"
+import pimage6 from "../assets/images/shopy6.webp"
+import pimage7 from "../assets/images/shopy7.webp"
+import pimage8 from "../assets/images/shopy8.webp"
+
+const images = {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6,pimage2,pimage3,pimage4,pimage5,pimage6,pimage7,pimage8}
+
+export default images
