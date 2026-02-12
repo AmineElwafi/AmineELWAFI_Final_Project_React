@@ -5,6 +5,7 @@ import Hero from './partials/slide'
 import Categories from './partials/categories'
 import FeaturedProducts from './partials/featuredProducts'
 import RandomProduct from './partials/randomProduct'
+import Blogs from './partials/blogs'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Categories/>
         <FeaturedProducts/>
         <RandomProduct/>
+        <Blogs/>
         <Footer/>
     </div>
   )

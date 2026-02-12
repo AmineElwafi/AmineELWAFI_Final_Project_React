@@ -19,6 +19,10 @@ import pimage8 from "../assets/images/shopy8.webp"
 
 import random from "../assets/images/banner-08.jpg"
 
-const images = {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6,pimage2,pimage3,pimage4,pimage5,pimage6,pimage7,pimage8,random}
+import blog1 from "../assets/images/blog-01.jpg"
+import blog2 from "../assets/images/blog-02.jpg"
+import blog3 from "../assets/images/blog-03.jpg"
+
+const images = {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6,pimage2,pimage3,pimage4,pimage5,pimage6,pimage7,pimage8,random,blog1,blog2,blog3}
 
 export default images
