@@ -17,6 +17,8 @@ import pimage6 from "../assets/images/shopy6.webp"
 import pimage7 from "../assets/images/shopy7.webp"
 import pimage8 from "../assets/images/shopy8.webp"
 
-const images = {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6,pimage2,pimage3,pimage4,pimage5,pimage6,pimage7,pimage8}
+import random from "../assets/images/banner-08.jpg"
+
+const images = {crsl1,crsl2,crsl3,card1,card2,card3,card4,card5,card6,pimage2,pimage3,pimage4,pimage5,pimage6,pimage7,pimage8,random}
 
 export default images
