@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaFacebookF, FaTwitter, FaPinterestSquare, FaGooglePlusG, FaInstagram, FaRegUser } from "react-icons/fa";
 import { LuShoppingCart } from "react-icons/lu";
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +23,8 @@ export default function Header() {
     return (
         <>
             <div
-                className={`flex justify-between items-center pr-10 pl-10 bg-[#f5f5f5] transition-all duration-300 ${
-                    hideTopBar ? "h-0 overflow-hidden opacity-0" : "h-auto opacity-100 py-2"
-                }`}
+                className={`flex justify-between items-center pr-10 pl-10 bg-[#f5f5f5] transition-all duration-300 ${hideTopBar ? "h-0 overflow-hidden opacity-0" : "h-auto opacity-100 py-2"
+                    }`}
             >
                 <div className='flex items-center gap-5'>
                     <FaFacebookF className='text-xl text-[#8e8583]' />
@@ -63,7 +63,6 @@ export default function Header() {
                                 />
                             </svg>
                         </button>
-
                         {isOpen && (
                             <div className="z-50 absolute mt-2 w-20 shadow-lg bg-white border-none">
                                 <div className="py-1">
@@ -86,15 +85,85 @@ export default function Header() {
                 <h1 className='text-4xl font-extrabold'>
                     Fashe<span className='text-red-500'>.</span>
                 </h1>
-
                 <div className='flex gap-10'>
-                    <a href="" className='hover:text-[#e65540]'>Home</a>
-                    <a href="" className='hover:text-[#e65540]'>Shop</a>
-                    <a href="" className='hover:text-[#e65540]'>Sale</a>
-                    <a href="" className='hover:text-[#e65540]'>Features</a>
-                    <a href="" className='hover:text-[#e65540]'>Blog</a>
-                    <a href="" className='hover:text-[#e65540]'>About</a>
-                    <a href="" className='hover:text-[#e65540]'>Contact</a>
+
+                    <NavLink
+                        to="/"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        Home
+                    </NavLink>
+
+                    <NavLink
+                        to="/shop"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        Shop
+                    </NavLink>
+
+                    <NavLink
+                        to="/sale"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        Sale
+                    </NavLink>
+
+                    <NavLink
+                        to="/features"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        Features
+                    </NavLink>
+
+                    <NavLink
+                        to="/blog"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        Blog
+                    </NavLink>
+
+                    <NavLink
+                        to="/about"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        About
+                    </NavLink>
+
+                    <NavLink
+                        to="/contact"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#e65540] font-semibold"
+                                : "hover:text-[#e65540]"
+                        }
+                    >
+                        Contact
+                    </NavLink>
+
                 </div>
 
                 <div className='flex items-center gap-5 text-[#8e8583]'>

@@ -3,7 +3,7 @@ import products from '../../../data/products';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export default function FeaturedProducts() {
+export default function RelatedProducts() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const itemsPerPage = 4;
 
